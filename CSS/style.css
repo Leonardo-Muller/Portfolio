@@ -71,7 +71,7 @@ li {
 }
 .fa-code{
   color: black;
-  font-size: 50px;
+  font-size: 40px;
 }
 .foto {
   float: left;
@@ -101,6 +101,9 @@ li {
   .texto2{
     transform: translate(0px,50px);
   }
+  .fa-code{
+  font-size: 30px;
+}
 }
 @media screen and (max-width: 580px) {
   .logo {
