@@ -40,6 +40,53 @@ body {
     -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
+
+/* textos */
+.textos{
+    background-color: #061a283d;
+}
+/*  5 motivos */
+.titulo-postagens{
+    color: black;
+    /* color: #fffa3a; */
+    font-size: 30px;
+    text-align: center;
+}
+.texto-base{
+    font-size: 19px;
+    color: #061a28;
+}
+.motivo-img{
+    height: 250px;
+    float: right;
+    transform: translate(0,-30%);
+    margin: 10px;
+}
+@media screen and (max-width: 700px){
+    .motivo-img{
+        height: 250px;
+        margin: 10px;
+        float: none;
+        transform: translate(30%,0%);
+    }
+}
+/* social */
+.social{
+    background: #061a28;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+}
+.rede{
+    color:#7eff63;
+    font-size: 35px;
+    list-style:none;
+    text-decoration: none;
+}
+.github{
+    margin-bottom: 100px;
+}
 /* footer */
 .footer {
     background: #061a28;
