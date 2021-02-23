@@ -8,6 +8,7 @@
     <title>Dev. Leonardo</title>
 
     <link rel="shortcut icon" href="./Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./Css./index.css">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,164 +16,20 @@
 
     <!--SEO GOOGLE -->
     <meta name="google-site-verification" content="rtmBdQ5K5YJc3uyUP8_TpaXRf5tcuXLorT26kOC4zRQ" />
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Mukta", sans-serif;
-        }
-
-        /* navbar */
-
-        .navbar {
-            background-color: #868678;
-            overflow: hidden;
-            margin: auto;
-            width: 100%;
-        }
-
-        .logo {
-            color: #7eff63;
-            float: left;
-            padding-left: 10px;
-        }
-
-        .menu {
-            list-style: none;
-            float: right;
-            text-align: center;
-
-            font-weight: bolder;
-        }
-
-        li {
-            padding: 10px;
-        }
-
-        .navbar-items {
-            text-decoration: none;
-            color: #7eff63;
-            display: inline-block;
-        }
-
-        .navbar-items:hover {
-            -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-        }
-
-        /* tela inicial */
-        .inicio {
-            background: url("https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-            margin: 0;
-            height: 100vh;
-            width: 100%;
-            text-align: center;
-            display: inline-block;
-        }
-
-        .texto {
-            transform: translate(-20%, 30vh);
-            font-size: 25px;
-            color: #fff;
-        }
-
-        .texto2 {
-            transform: translate(0%, 30vh);
-            font-size: 25px;
-            color: #fffa3a;
-        }
-
-        .fa-html5 {
-            color: #dd4b25;
-            font-size: 42px;
-        }
-
-        .fa-css3-alt {
-            color: blue;
-            font-size: 42px;
-        }
-
-        .fa-js {
-            color: #f7df1e;
-            font-size: 42px;
-        }
-
-        .fa-code {
-            color: black;
-            font-size: 40px;
-        }
-
-        .foto {
-            float: left;
-            transform: translate(20%, 90%);
-        }
-
-        /* footer */
-        .footer {
-            background: #868678;
-            color: #7eff63;
-            padding: 10px;
-            text-align: center;
-        }
-
-        /* mobile */
-        @media screen and (max-width: 910px) {
-            .foto {
-                float: none;
-                transform: translate(0px, 60px);
-            }
-
-            .texto {
-                transform: translate(0px, 60px);
-                color: #fff;
-            }
-
-            .texto2 {
-                transform: translate(0px, 50px);
-            }
-
-            .fa-code {
-                font-size: 30px;
-            }
-        }
-
-        @media screen and (max-width: 580px) {
-            .logo {
-                float: none;
-                text-align: center;
-            }
-
-            .menu {
-                margin-top: 20px;
-                float: none;
-                text-align: center;
-            }
-
-            li {
-                float: none;
-                margin-bottom: 5px;
-                padding: 10px;
-            }
-        }
-    </style>
-
 <body>
     <!-- navbar -->
     <nav class="navbar">
         <h1 class="logo">Dev. Leonardo Muller</h1>
         <ul class="menu">
-            <a class="navbar-items" href="#sobre">
-                <li>Sobre mim</li>
+            <a class="navbar-items" href="./html/sobre.html">
+                <li class="li">Sobre mim</li>
             </a>
-            <a class="navbar-items" href="#social">
-                <li>Redes Socias</li>
             </a>
-            <a class="navbar-items" href="#blog">
-                <li>Blog</li>
+            <a class="navbar-items" href="./html/blog.html">
+                <li class="li">Blog</li>
             </a>
-            <a class="navbar-items" href="#projetos">
-                <li>Projetos</li>
+            <a class="navbar-items" href="./html/projetos.html">
+                <li class="li">Projetos</li>
             </a>
         </ul>
     </nav>
@@ -180,16 +37,24 @@
     <!-- main -->
     <main>
         <section>
-            <h6 class="inicio">
+            <h6 id="sobre">
                 <img src="./Imagens/avatar.jpeg" alt="meu avatar" class="foto">
                 <p class="texto"><i class="fas fa-terminal"></i>Quem sou</p>
                 <p class="texto2"><i class="fas fa-code"></i>Sou um desenvolvedor Front-End, que está começando nesta
                     jornada.</p>
                 <p class="texto2">Desenvolvo em <i class="fab fa-html5"></i> e <i class="fab fa-css3-alt"></i>
                     e programo em <i class="fab fa-js">.<i class="fas fa-code"></i></i>
-
-
                 </p>
+        </section>
+        <section>
+                <ul class="social">
+                    <a href="https://www.instagram.com/devleonardomuller/" target="blaked__" class="rede">
+                        <li class="instagram"><i class="fab fa-instagram"></i>devleonardomuller</li>
+                    </a>
+                    <a href="https://github.com/Leonardo-Muller" target="blaked__" class="rede">
+                        <li class="github social"><i class="fab fa-github"></i>GitHub</li>
+                    </a>
+                </ul>
         </section>
     </main>
     <footer class="footer">
