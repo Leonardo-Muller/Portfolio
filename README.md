@@ -10,7 +10,9 @@ Sou um Front-End, no inicio da jornada, fiz este site para testar minhas habilid
 💻  [Website](https://leonardomuller.vercel.app/) 
 
 
-### Projeto
-Neste projeto utilizei o HTML5 ,CSS3 e GIT, para subir uma nova tecnologia no meu catálogo.
-O site foi hospedado na Vercel para mim fazer uns testes de hospedagem e aprender SEO. 
+## Projeto
+Neste projeto utilizei o HTML5 ,CSS3 e o GIT para subir os arquivos. É mais uma tecnologia no meu catálogo.
+O site foi hospedado na Vercel para fazer teste de hospedagem e aprender SEO.
+
+
 
