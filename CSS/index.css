@@ -94,16 +94,13 @@ body {
     padding: 10px;
     margin: 0;
     text-align: center;
-    height: 100px;
+    height: 100%;
 }
 .rede{
     color:#7eff63;
     font-size: 35px;
     list-style:none;
     text-decoration: none;
-}
-.github{
-    margin-bottom: 10px;
 }
 
 /* mobile */
