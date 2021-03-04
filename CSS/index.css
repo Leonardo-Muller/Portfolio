@@ -103,16 +103,7 @@ body {
     text-decoration: none;
 }
 .github{
-    margin-bottom: 100px;
-}
-
-/* footer */
-.footer {
-    background: #061a28;
-    color: #7eff63;
-    padding: 10px;
-    text-align: center;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 /* mobile */
