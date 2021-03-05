@@ -64,10 +64,14 @@ body {
 }
 @media screen and (max-width: 700px){
     .motivo-img{
-        height: 250px;
+        width: 200px;
+        height: auto;
         margin: 10px;
         float: none;
         transform: translate(30%,0%);
+    }
+    .texto-base{
+        text-align: left;
     }
 }
 /* social */
@@ -75,8 +79,9 @@ body {
     background: #061a28;
     padding: 10px;
     margin: 0;
-    text-align: center;
-    height: 100px;
+    text-indent: 30%;
+    height: 100%;
+
 }
 .rede{
     color:#7eff63;
@@ -84,6 +89,12 @@ body {
     list-style:none;
     text-decoration: none;
 }
-.github{
-    margin-bottom: 10px;
+
+.fa-github{
+    margin-left: 170px;
+    margin-right: 20px;
+}
+.fa-instagram{
+    margin-left: 100px;
+    margin-right: 20px;
 }
