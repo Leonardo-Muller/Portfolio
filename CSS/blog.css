@@ -56,7 +56,8 @@ body {
     color: #061a28;
 }
 .motivo-img{
-    height: 250px;
+    height: 200px;
+    width: auto;
     float: right;
     transform: translate(0,-30%);
     margin: 10px;
