@@ -7,7 +7,7 @@
 Sou um Front-End, no inicio da jornada, fiz este site para testar minhas habilidades, sei que tem muito a melhorar, mas estudo há 1 mês.
 
 
-💻  [Website](https://leonardomuller.vercel.app/) 
+💻  [Website](https://leonardomuller.netlify.app) 
 
 
 ## Projeto
